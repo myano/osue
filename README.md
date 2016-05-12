@@ -1,12 +1,17 @@
 osue
 ====
 
-Ohio State University's Emergency Page
+The Ohio State University's Emergency Page
+
+Deprecation
+-----------
+
+This project has been deprecated due to OSU replacing their Emergency Info page with a more modern layout: https://dps.osu.edu/campus-status
 
 Goal
 ----
 
-This project contains commits of the index.html file located at 
+This project contains commits of the index.html file located at
 http://ap.osu.edu/emergency/ over the course of the past few months.
 
 This was created by running this in a cronjob:
