@@ -5,102 +5,60 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="ctl00_Head1"><title>
 	OSU Administration and Planning :: Emergency Management Home
-</title><meta http-equiv="Content-Type" content="text/html" /><meta name="robots" content="all" /><meta name="keywords" content="The Ohio State University Administration and Planning, OSU Administration and Planning, Administration and Planning, OSU A&amp;P, OSU AP, A&amp;P, AP" /><meta name="description" content="The Ohio State University Administration and Planning, OSU Administration and Planning, Administration and Planning, OSU A&amp;P, OSU AP, A&amp;P, AP" />
-    <!-- Styles for non-compliant (Netscape 4.x) styles sheets>
-	<link href="/css/noncompliant.css" rel="stylesheet" type="text/css" / -->
-    <!-- CSS2 Style sheets -->
-    <style type="text/css" media="screen, TV, projection">
-		<!--
-		@import url(/css/main.css);
-		@import url(/css/navbar.css);
-		@import url(/css/home.css);
-		@import url(/css/footer.css);
-		@import url(/css/cms.css);
-		@import url(/css/osu-tabs.css);
-		@import url(/css/emer.css);
-		ul#mainMenu li { behavior: url(/css/hover.htc); }
-		-->
-	</style>
-    <style type="text/css" media="print">
-		<!--
-		@import url(/css/print.css);
-		@import url(/css/footer.css);
-		-->
-	</style>
-	<!-- OSU Navbar: Required Conditional CSS. -->
-	<!--[if lte IE 6]>  
-	<link rel="stylesheet" type="text/css" href="/css/navbar-ie6.css" />
+</title><meta http-equiv="X-UA-Compatible" content="IE=8" /><meta http-equiv="Content-Type" content="text/html" /><meta name="robots" content="all" /><meta name="keywords" content="The Ohio State University Administration and Planning, OSU Administration and Planning, Administration and Planning, OSU A&amp;P, OSU AP, A&amp;P, AP" /><meta name="description" content="The Ohio State University Administration and Planning has brought together various units shaping the university’s physical environment and business operations." /><meta name="author" content="© 2014 The Ohio State University" />
+
+    <!-- base css -->
+	<link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="/css/footer.css" /><link rel="stylesheet" href="/css/cms.css" /><link rel="stylesheet" href="/css/emer.css" /><link rel="stylesheet" href="/css/osu-tabs.css" />
+	<!-- osu_navbar -->
+    <link rel="stylesheet" href="/osu_navbar/css/osu_navbar-resp.css" />
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<!--[if IE 7]>  
-	<link rel="stylesheet" type="text/css" href="/css/navbar-ie7.css" />
-	<![endif]-->
-		<!-- OSU Navbar: Fixed Width CSS-->
-	<style type="text/css">
-		<!--
-		div#osu-NavbarBreadcrumb { padding-left: 0em; }
-		div#osu-NavbarLinks ul { padding-right: 0em; }
-		-->
-	</style>
+
+    <link rel="shortcut icon" href="/osu_navbar/images/favicon.ico" /><link rel="text/css" href="/css/print.css" media="print" />
+     
     <script type="text/javascript" src="/js/AC_RunActiveContent.js" language="javascript"></script>
-    <!--4 files needed for custom scroll bar, however, doesn't work for now -->
-    <!--script src="/js/prototype.js" type="text/javascript" language="javascript"></script> 
-	<script src="/js/slider.js" type="text/javascript" language="javascript"></script> 
-	<script src="/js/scroller.js" type="text/javascript" language="javascript"></script--> 
-	<!--link href="/css/scroller.css" rel="stylesheet" type="text/css" media="all" /-->  
 </head>
 <body>
 <!--Jumps past page's navigation-->
 <a id="top"></a>
-    <div id="wrapper">
-        <!-- Note: This file has been modified to use the go_button.gif file from a local directory
-     This was done to allow this file to be included by any asp.net script running on the web server for Business and Finance. 
-     The graphic has been copied to the images directory(TAH July 2nd, 2008)
--->
-<!-- Masthead -->
-<div id="osu-Navbar">
-		<p>
-			<a href="#content-rightMiddle" id="skip" class="osu-semantic">skip to main content</a>
-		</p>
-		<h2 class="osu-semantic">OSU Navbar</h2>
-		<div id="osu-NavbarBreadcrumb">
-			<p id="osu">
-				<a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
-			</p>
-			<p id="site-name">
-			  <a title="OSU Administration and Planning homepage" href="http://ap.osu.edu/">Administration and Planning</a>
-			</p>
-		</div>
-		<div id="osu-NavbarLinks">
-			<ul>
-					<li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
-					<li><a href="http://buckeyelink.osu.edu/" title="Buckeye Link">Buckeye Link</a></li>
-					<li><a href="http://www.osu.edu/map/" title="Campus map">Map</a></li>
-					<li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
-					<li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
-					<li id="searchbox">
-					<form action="http://www.osu.edu/search/index.php" method="post">
-						<fieldset>
-							<legend><span class="osu-semantic">Search</span></legend>
-							<label class="osu-semantic overlabel" for="search-field">Search Ohio State</label>
-							<input type="text" alt-attribute="Search Ohio State" value="Search Ohio State" onfocus="this.value='';"  name="searchOSU" class="textfield headerSearchInput" id="search-field"/>
-							<button name="go" type="submit">Go</button>
-						</fieldset>					
-					</form>
-				  </li>       
-				</ul>
-		</div>
-</div>
-<!--div class="hr"><hr /></div-->
-<!-- End masthead --><form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm" style="margin: 0px; padding: 0px; border: 0px;">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYzMjc4NzkxNA9kFgJmD2QWAgIED2QWBAIBD2QWAmYPZBYEAgEPZBYCAgEPDxYCHgRUZXh0ZWRkAgMPZBYCAgEPFgIfAAXtEjx1bCBpZD0iYXBfZW1lcl9tYXN0ZXJfNF8xIiBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOm5vbmUiID48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9saW5rcy5hc3B4Ij5SZXNvdXJjZXMgYW5kIExpbmtzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvRW1lcmdlbmN5IE1hbmFnZW1lbnQvRU0gR3VpZGUgdG8gZGlzcnVwdGl2ZSBvciBkaXN0cmVzc2VkIDIwMTMucGRmIiB0YXJnZXQ9Il9ibGFuayI+MjAxMyBHdWlkZSB0byBBc3Npc3QgRGlzcnVwdGl2ZSBvciBEaXN0cmVzc2VkIEluZGl2aWR1YWxzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01VmNTd2VqVTJEMCIgdGFyZ2V0PSJfYmxhbmsiPlJ1bi4gSGlkZS4gRmlnaHQuIFZpZGVvPC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ta05YVUpnY1NVayZmZWF0dXJlPXlvdXR1LmJlIiB0YXJnZXQ9Il9ibGFuayI+UnVuLCBSZXRyZWF0LCBSZXNpc3QgVmlkZW88L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIDIwMTMgQWN0aXZlIFNob290ZXIgUG9zdGVyLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkFjdGl2ZSBTaG9vdGVyIFBvc3RlcjwvYT48L2xpPjxsaT48YSBocmVmPSIvRmlsZVN0b3JlL1BERnMvRU0gMjAxMyBBY3RpdmUgU2hvb3RlciBQb2NrZXQucGRmIiB0YXJnZXQ9Il9ibGFuayI+IEFjdGl2ZSBTaG9vdGVyIFBvY2tldC1TaXplZCBJbmZvPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvUERGcy9FTSAyMDEzIEFjdGl2ZSBTaG9vdGVyIEJvb2tsZXQucGRmIiB0YXJnZXQ9Il9ibGFuayI+QWN0aXZlIFNob290ZXIgSW5mb3JtYXRpb24gQm9va2xldDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9QUR0YW4tMVUzN3MiIHRhcmdldD0iX2JsYW5rIj5NYWtlIHRoZSBDYWxsIC0gU2VlIFNvbWV0aGluZywgU2F5IFNvbWV0aGluZyB2aWRlbzwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIC0gRW0gTm90aWYgUmVzcCBQcm9jZWR1cmVzLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkVtZXJnZW5jeSBOb3RpZmljYXRpb24sIEV2YWN1YXRpb24gJiBSZXNwb25zZSBQcm9jZWR1cmVzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvRW1lcmdlbmN5IE1hbmFnZW1lbnQvRmlyZSBMb2cgMjAxMy5wZGYiIHRhcmdldD0iX2JsYW5rIj5GaXJlIExvZzwvYT48L2xpPjxsaT48YSBocmVmPSIvRmlsZVN0b3JlL1BERnMvQ0VNUCAyMDEyLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkNvbXByZWhlbnNpdmUgRW1lcmdlbmN5IE1hbmFnZW1lbnQgUGxhbiAoQ0VNUCk8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2VtZXJnZW5jeS5vc3UuZWR1Ij4uPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvZGVmYXVsdC5hc3B4Ij5FbWVyZ2VuY3kgSG9tZTwvYT48L2xpPjxsaT48YSBocmVmPSIvZW1lcmdlbmN5L2ZhY3VsdHkuYXNweCI+RmFjdWx0eSAmIFN0YWZmPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvcGFyZW50cy5hc3B4Ij5TdHVkZW50cyAmIFBhcmVudHM8L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9lbWVyTWFuYWdlbWVudC5hc3B4Ij5FbWVyZ2VuY3kgTWFuYWdlbWVudDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9maXJlUHJldmVudGlvbi5hc3B4Ij5GaXJlIFByZXZlbnRpb248L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIFRlbnQgR3JpbGxpbmcgSW5mbGF0YWJsZSBTdHJ1Y3R1cmUgUG9saWNpZXMucGRmIiB0YXJnZXQ9Il9ibGFuayI+VGVudCAmIEdyaWxsIFBvbGljaWVzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvcHJlcGFyZWRuZXNzSG9tZS5hc3B4Ij5QcmVwYXJlZG5lc3MgYXQgSG9tZTwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2J1Y2tleWVhbGVydC5vc3UuZWR1Ij5CdWNrZXllIEFsZXJ0PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvYWJvdXRVcy5hc3B4Ij5TdGFmZiBEaXJlY3Rvcnk8L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9waG90b3MuYXNweCI+IDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwczovL2VtYWlsLm9zdS5lZHUvb3dhL2F1dGgvbG9nb24uYXNweD9yZXBsYWNlQ3VycmVudD0xJnVybD1odHRwcyUzYSUyZiUyZmVtYWlsLm9zdS5lZHUlMmZvd2ElMmYiPk9TVSBXZWJtYWlsPC9hPjwvbGk+PC91bD5kAg8PZBYOAgEPZBYCZg9kFgICAQ9kFgQCAQ9kFgICAQ8PFgIfAAUNQ2FtcHVzIFN0YXR1c2RkAgMPDxYCHwAF2Ao8YnI+PGI+PGEgaHJlZj0iaHR0cDovL29zdS5lZHUiID5PU1UgQ29sdW1idXM8L2E+IGNhbXB1cyBpcyBPUEVOIGFuZCBvcGVyYXRpbmcgdW5kZXIgbm9ybWFsIGNvbmRpdGlvbnMuPC9iPjxicj48YnI+PGEgaHJlZj0iaHR0cDovL2F0aS5vc3UuZWR1IiA+T1NVIEFUSTwvYT4gIC8gIDxhIGhyZWY9Imh0dHA6Ly9vYXJkYy5vc3UuZWR1IiA+T1NVIE9BUkRDPC9hPiBpbiBXb29zdGVyIC0gaXMgT1BFTiBhbmQgb3BlcmF0aW5nIHVuZGVyIG5vcm1hbCBjb25kaXRpb25zLjxicj48YnI+PGEgaHJlZj0iaHR0cDovL21hbnNmaWVsZC5vaGlvLXN0YXRlLmVkdSIgPk9TVSBNYW5zZmllbGQ8L2E+IGlzIE9QRU4gYW5kIG9wZXJhdGluZyB1bmRlciBub3JtYWwgY29uZGl0aW9uczxicj48YnI+PGEgaHJlZj0iaHR0cDovL25ld2Fyay5vc3UuZWR1IiA+T1NVIE5ld2FyazwvYT4gLSBpcyBPUEVOIGFuZCBvcGVyYXRpbmcgdW5kZXIgbm9ybWFsIGNvbmRpdGlvbnM8YnI+PGJyPjxhIGhyZWY9Imh0dHA6Ly9saW1hLm9zdS5lZHUiID5PU1UgTGltYTwvYT4gLSAgaXMgT1BFTiBhbmQgb3BlcmF0aW5nIHVuZGVyIG5vcm1hbCBjb25kaXRpb25zPGJyPjxicj48YSBocmVmPSJodHRwOi8vb3N1bWFyaW9uLm9zdS5lZHUiID5PU1UgTWFyaW9uPC9hPiAtIGlzIE9QRU4gYW5kIG9wZXJhdGluZyB1bmRlciBub3JtYWwgY29uZGl0aW9uczxicj48YnI+PGJyPjxicj5Cb29rbWFyayB0aGlzIHBhZ2UhIER1cmluZyBhbiBlbWVyZ2VuY3ksIE9oaW8gU3RhdGUgVW5pdmVyc2l0eSBFbWVyZ2VuY3kgTWFuYWdlbWVudCB3aWxsIHBvc3QgdGhlIG1vc3QgcmVjZW50IGluZm9ybWF0aW9uIGhlcmUuIEFsc28sIHByb2dyYW0gb3VyIHJlY29yZGVkIDI0LzcgaW5mb3JtYXRpb24gbGluZSBpbnRvIHlvdXIgcGhvbmUhIDxicj42MTQtMjQ3LTc3Nzc8YnI+PGJyPiA8YnI+PGJyPjxicj48YSBjbGFzcz0idHdpdHRlci10aW1lbGluZSIgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9PU1VfRU1GUCIgZGF0YS13aWRnZXQtaWQ9IjM2MTg2NDMzNTc4MzUwNTkyMiI+VHdlZXRzIGJ5IEBPU1VfRU1GUDwvYT48YnI+PHNjcmlwdD4hZnVuY3Rpb24oZCxzLGlkKXt2YXIganMsZmpzPWQuZ2V0RWxlbWVudHNCeVRhZ05hbWUocylbMF0scD0vXmh0dHA6Ly50ZXN0KGQubG9jYXRpb24pPydodHRwJzonaHR0cHMnO2lmKCFkLmdldEVsZW1lbnRCeUlkKGlkKSl7anM9ZC5jcmVhdGVFbGVtZW50KHMpO2pzLmlkPWlkO2pzLnNyYz1wKyI6Ly9wbGF0Zm9ybS50d2l0dGVyLmNvbS93aWRnZXRzLmpzIjtmanMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoanMsZmpzKTt9fShkb2N1bWVudCwic2NyaXB0IiwidHdpdHRlci13anMiKTs8L3NjcmlwdD48YnI+PGJyPjxicj5kZAIDD2QWAmYPZBYEAgEPZBYCAgEPDxYCHwBlZGQCAw9kFgICAQ8WAh8ABZcDPHVsIGlkPSJhcF9lbWVyX2RlZmF1bHRfNF8xIiBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOm5vbmUiID48bGk+PGEgaHJlZj0iaHR0cDovL2ZvcmVjYXN0LndlYXRoZXIuZ292L01hcENsaWNrLnBocD9DaXR5TmFtZT1Db2x1bWJ1cyZzdGF0ZT1PSCZzaXRlPUlMTiZ0ZXh0RmllbGQxPTM5Ljk4ODkmdGV4dEZpZWxkMj0tODIuOTg3NCI+Q29sdW1idXMgRGV0YWlsZWQgNy1kYXkgRm9yZWNhc3Q8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5zcGMubm9hYS5nb3YvcHJvZHVjdHMvb3V0bG9vay8iPlNldmVyZSBXZWF0aGVyIE91dGxvb2s8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5zcGMubm9hYS5nb3YvcHJvZHVjdHMvd2F0Y2gvIj5TZXZlcmUgV2VhdGhlciBXYXRjaGVzPC9hPjwvbGk+PC91bD5kAgUPZBYCZg9kFgICAQ8PFgIeB1Zpc2libGVoZGQCBw9kFgJmD2QWAgIBDw8WAh8BaGRkAgkPZBYCZg9kFgICAQ9kFgQCAQ8PFgIfAWhkZAIDDw8WAh8ABTg8Zm9udCBjb2xvcj0jZmZmZmZmPi48L2ZvbnQ+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPmRkAgsPZBYCZg9kFgICAQ8PFgIfAWhkZAIND2QWAmYPZBYCAgEPDxYCHwFoZGRkl21PEUa5gcucgsoeewThfypYOHI=" />
+        <div role="navigation" id="osu_navbar" aria-labelledby="osu_navbar_heading">
+    
+    <h2 id="osu_navbar_heading" class="osu-semantic">Ohio State nav bar</h2>
+	<a href="#page-content" id="skip" class="osu-semantic">Skip to main content</a>
+	
+	<div class="container">
+    	<div class="univ_info">
+    		<p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
+    	</div><!-- /univ_info -->
+    	<div class="univ_links">
+    		<div class="links">
+    			<ul>
+    				<li><a href="http://www.osu.edu/help.php" class="help">Help</a></li>
+    				<li><a href="http://buckeyelink.osu.edu/" class="buckeyelink">BuckeyeLink</a></li>
+    				<li><a href="http://www.osu.edu/map/" class="map">Map</a></li>
+    				<li><a href="http://www.osu.edu/findpeople.php" class="findpeople">Find People</a></li>
+    				<li><a href="https://email.osu.edu/" class="webmail">Webmail</a></li> 
+    				<li><a href="http://www.osu.edu/search/" class="search">Search Ohio State</a></li>
+    			</ul>
+    		</div><!-- /links -->
+    	</div><!-- /univ_links -->
+    </div><!-- /container -->
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwL8yb7hAQKu1q62CALXncOeD5hP9y/Iklv6arSgDxXZm5E/a94n" />
-	    <div id="header">
-	        <a href="/"><img src="/images/ap_logo.jpg" alt="Administration and Planning Home" /></a>
-	    </div>
-	    <div id="banner">
-            <img src="/images/rotating_banner.gif" alt="OSU pictures" />
-	    </div>
+</div><!-- /osu_navbar -->
+    <div id="wrapper">
+        <form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm" style="margin: 0px; padding: 0px; border: 0px;">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYzMjc4NzkxNA9kFgJmD2QWAgIFD2QWBAIBD2QWAmYPZBYEAgEPZBYCAgEPDxYCHgRUZXh0ZWRkAgMPZBYCAgEPFgIfAAXtEjx1bCBpZD0iYXBfZW1lcl9tYXN0ZXJfNF8xIiBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOm5vbmUiID48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9saW5rcy5hc3B4Ij5SZXNvdXJjZXMgYW5kIExpbmtzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvRW1lcmdlbmN5IE1hbmFnZW1lbnQvRU0gR3VpZGUgdG8gZGlzcnVwdGl2ZSBvciBkaXN0cmVzc2VkIDIwMTMucGRmIiB0YXJnZXQ9Il9ibGFuayI+MjAxMyBHdWlkZSB0byBBc3Npc3QgRGlzcnVwdGl2ZSBvciBEaXN0cmVzc2VkIEluZGl2aWR1YWxzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj01VmNTd2VqVTJEMCIgdGFyZ2V0PSJfYmxhbmsiPlJ1bi4gSGlkZS4gRmlnaHQuIFZpZGVvPC9hPjwvbGk+PGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ta05YVUpnY1NVayZmZWF0dXJlPXlvdXR1LmJlIiB0YXJnZXQ9Il9ibGFuayI+UnVuLCBSZXRyZWF0LCBSZXNpc3QgVmlkZW88L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIDIwMTMgQWN0aXZlIFNob290ZXIgUG9zdGVyLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkFjdGl2ZSBTaG9vdGVyIFBvc3RlcjwvYT48L2xpPjxsaT48YSBocmVmPSIvRmlsZVN0b3JlL1BERnMvRU0gMjAxMyBBY3RpdmUgU2hvb3RlciBQb2NrZXQucGRmIiB0YXJnZXQ9Il9ibGFuayI+IEFjdGl2ZSBTaG9vdGVyIFBvY2tldC1TaXplZCBJbmZvPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvUERGcy9FTSAyMDEzIEFjdGl2ZSBTaG9vdGVyIEJvb2tsZXQucGRmIiB0YXJnZXQ9Il9ibGFuayI+QWN0aXZlIFNob290ZXIgSW5mb3JtYXRpb24gQm9va2xldDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9QUR0YW4tMVUzN3MiIHRhcmdldD0iX2JsYW5rIj5NYWtlIHRoZSBDYWxsIC0gU2VlIFNvbWV0aGluZywgU2F5IFNvbWV0aGluZyB2aWRlbzwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIC0gRW0gTm90aWYgUmVzcCBQcm9jZWR1cmVzLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkVtZXJnZW5jeSBOb3RpZmljYXRpb24sIEV2YWN1YXRpb24gJiBSZXNwb25zZSBQcm9jZWR1cmVzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9GaWxlU3RvcmUvRW1lcmdlbmN5IE1hbmFnZW1lbnQvRmlyZSBMb2cgMjAxMy5wZGYiIHRhcmdldD0iX2JsYW5rIj5GaXJlIExvZzwvYT48L2xpPjxsaT48YSBocmVmPSIvRmlsZVN0b3JlL1BERnMvQ0VNUCAyMDEyLnBkZiIgdGFyZ2V0PSJfYmxhbmsiPkNvbXByZWhlbnNpdmUgRW1lcmdlbmN5IE1hbmFnZW1lbnQgUGxhbiAoQ0VNUCk8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2VtZXJnZW5jeS5vc3UuZWR1Ij4uPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvZGVmYXVsdC5hc3B4Ij5FbWVyZ2VuY3kgSG9tZTwvYT48L2xpPjxsaT48YSBocmVmPSIvZW1lcmdlbmN5L2ZhY3VsdHkuYXNweCI+RmFjdWx0eSAmIFN0YWZmPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvcGFyZW50cy5hc3B4Ij5TdHVkZW50cyAmIFBhcmVudHM8L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9lbWVyTWFuYWdlbWVudC5hc3B4Ij5FbWVyZ2VuY3kgTWFuYWdlbWVudDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9maXJlUHJldmVudGlvbi5hc3B4Ij5GaXJlIFByZXZlbnRpb248L2E+PC9saT48bGk+PGEgaHJlZj0iL0ZpbGVTdG9yZS9QREZzL0VNIFRlbnQgR3JpbGxpbmcgSW5mbGF0YWJsZSBTdHJ1Y3R1cmUgUG9saWNpZXMucGRmIiB0YXJnZXQ9Il9ibGFuayI+VGVudCAmIEdyaWxsIFBvbGljaWVzPC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvcHJlcGFyZWRuZXNzSG9tZS5hc3B4Ij5QcmVwYXJlZG5lc3MgYXQgSG9tZTwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwOi8vZW1lcmdlbmN5Lm9zdS5lZHUiPi48L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL2J1Y2tleWVhbGVydC5vc3UuZWR1Ij5CdWNrZXllIEFsZXJ0PC9hPjwvbGk+PGxpPjxhIGhyZWY9Ii9lbWVyZ2VuY3kvYWJvdXRVcy5hc3B4Ij5TdGFmZiBEaXJlY3Rvcnk8L2E+PC9saT48bGk+PGEgaHJlZj0iL2VtZXJnZW5jeS9waG90b3MuYXNweCI+IDwvYT48L2xpPjxsaT48YSBocmVmPSJodHRwczovL2VtYWlsLm9zdS5lZHUvb3dhL2F1dGgvbG9nb24uYXNweD9yZXBsYWNlQ3VycmVudD0xJnVybD1odHRwcyUzYSUyZiUyZmVtYWlsLm9zdS5lZHUlMmZvd2ElMmYiPk9TVSBXZWJtYWlsPC9hPjwvbGk+PC91bD5kAg8PZBYOAgEPZBYCZg9kFgICAQ9kFgQCAQ9kFgICAQ8PFgIfAAUNQ2FtcHVzIFN0YXR1c2RkAgMPDxYCHwAF2Ao8YnI+PGI+PGEgaHJlZj0iaHR0cDovL29zdS5lZHUiID5PU1UgQ29sdW1idXM8L2E+IGNhbXB1cyBpcyBPUEVOIGFuZCBvcGVyYXRpbmcgdW5kZXIgbm9ybWFsIGNvbmRpdGlvbnMuPC9iPjxicj48YnI+PGEgaHJlZj0iaHR0cDovL2F0aS5vc3UuZWR1IiA+T1NVIEFUSTwvYT4gIC8gIDxhIGhyZWY9Imh0dHA6Ly9vYXJkYy5vc3UuZWR1IiA+T1NVIE9BUkRDPC9hPiBpbiBXb29zdGVyIC0gaXMgT1BFTiBhbmQgb3BlcmF0aW5nIHVuZGVyIG5vcm1hbCBjb25kaXRpb25zLjxicj48YnI+PGEgaHJlZj0iaHR0cDovL21hbnNmaWVsZC5vaGlvLXN0YXRlLmVkdSIgPk9TVSBNYW5zZmllbGQ8L2E+IGlzIE9QRU4gYW5kIG9wZXJhdGluZyB1bmRlciBub3JtYWwgY29uZGl0aW9uczxicj48YnI+PGEgaHJlZj0iaHR0cDovL25ld2Fyay5vc3UuZWR1IiA+T1NVIE5ld2FyazwvYT4gLSBpcyBPUEVOIGFuZCBvcGVyYXRpbmcgdW5kZXIgbm9ybWFsIGNvbmRpdGlvbnM8YnI+PGJyPjxhIGhyZWY9Imh0dHA6Ly9saW1hLm9zdS5lZHUiID5PU1UgTGltYTwvYT4gLSAgaXMgT1BFTiBhbmQgb3BlcmF0aW5nIHVuZGVyIG5vcm1hbCBjb25kaXRpb25zPGJyPjxicj48YSBocmVmPSJodHRwOi8vb3N1bWFyaW9uLm9zdS5lZHUiID5PU1UgTWFyaW9uPC9hPiAtIGlzIE9QRU4gYW5kIG9wZXJhdGluZyB1bmRlciBub3JtYWwgY29uZGl0aW9uczxicj48YnI+PGJyPjxicj5Cb29rbWFyayB0aGlzIHBhZ2UhIER1cmluZyBhbiBlbWVyZ2VuY3ksIE9oaW8gU3RhdGUgVW5pdmVyc2l0eSBFbWVyZ2VuY3kgTWFuYWdlbWVudCB3aWxsIHBvc3QgdGhlIG1vc3QgcmVjZW50IGluZm9ybWF0aW9uIGhlcmUuIEFsc28sIHByb2dyYW0gb3VyIHJlY29yZGVkIDI0LzcgaW5mb3JtYXRpb24gbGluZSBpbnRvIHlvdXIgcGhvbmUhIDxicj42MTQtMjQ3LTc3Nzc8YnI+PGJyPiA8YnI+PGJyPjxicj48YSBjbGFzcz0idHdpdHRlci10aW1lbGluZSIgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9PU1VfRU1GUCIgZGF0YS13aWRnZXQtaWQ9IjM2MTg2NDMzNTc4MzUwNTkyMiI+VHdlZXRzIGJ5IEBPU1VfRU1GUDwvYT48YnI+PHNjcmlwdD4hZnVuY3Rpb24oZCxzLGlkKXt2YXIganMsZmpzPWQuZ2V0RWxlbWVudHNCeVRhZ05hbWUocylbMF0scD0vXmh0dHA6Ly50ZXN0KGQubG9jYXRpb24pPydodHRwJzonaHR0cHMnO2lmKCFkLmdldEVsZW1lbnRCeUlkKGlkKSl7anM9ZC5jcmVhdGVFbGVtZW50KHMpO2pzLmlkPWlkO2pzLnNyYz1wKyI6Ly9wbGF0Zm9ybS50d2l0dGVyLmNvbS93aWRnZXRzLmpzIjtmanMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoanMsZmpzKTt9fShkb2N1bWVudCwic2NyaXB0IiwidHdpdHRlci13anMiKTs8L3NjcmlwdD48YnI+PGJyPjxicj5kZAIDD2QWAmYPZBYEAgEPZBYCAgEPDxYCHwBlZGQCAw9kFgICAQ8WAh8ABZcDPHVsIGlkPSJhcF9lbWVyX2RlZmF1bHRfNF8xIiBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOm5vbmUiID48bGk+PGEgaHJlZj0iaHR0cDovL2ZvcmVjYXN0LndlYXRoZXIuZ292L01hcENsaWNrLnBocD9DaXR5TmFtZT1Db2x1bWJ1cyZzdGF0ZT1PSCZzaXRlPUlMTiZ0ZXh0RmllbGQxPTM5Ljk4ODkmdGV4dEZpZWxkMj0tODIuOTg3NCI+Q29sdW1idXMgRGV0YWlsZWQgNy1kYXkgRm9yZWNhc3Q8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5zcGMubm9hYS5nb3YvcHJvZHVjdHMvb3V0bG9vay8iPlNldmVyZSBXZWF0aGVyIE91dGxvb2s8L2E+PC9saT48bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5zcGMubm9hYS5nb3YvcHJvZHVjdHMvd2F0Y2gvIj5TZXZlcmUgV2VhdGhlciBXYXRjaGVzPC9hPjwvbGk+PC91bD5kAgUPZBYCZg9kFgICAQ8PFgIeB1Zpc2libGVoZGQCBw9kFgJmD2QWAgIBDw8WAh8BaGRkAgkPZBYCZg9kFgICAQ9kFgQCAQ8PFgIfAWhkZAIDDw8WAh8ABTg8Zm9udCBjb2xvcj0jZmZmZmZmPi48L2ZvbnQ+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPmRkAgsPZBYCZg9kFgICAQ8PFgIfAWhkZAIND2QWAmYPZBYCAgEPDxYCHwFoZGRkrNi02o3I/KEhoXQ0i1p/Iu6vMPo=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwK3oqmCDwKu1q62CALXncOeD8MYD9uHUFqlg7aGJ/udFueNTOux" />
+	    <div id="masthead">
+			<div class="osu_logo">
+				<a href="http://www.osu.edu">The Ohio State University</a>
+			</div>
+			<h1><a href="/"><span class="preheading">OFFICE OF</span>ADMINISTRATION AND PLANNING</a></h1>
+        </div><!-- /masthead -->
+
 	    <div id="contentEmer">
 	        <div id="contentEmer-left">
                 <div id="ctl00_ap_emer_master_4_1_pnlMain" class="ControlBox">
@@ -339,27 +297,18 @@
 	    </div>
         <!-- footer -->
 <div id="footer">
-	<a href="http://www.osu.edu/" title="The Ohio State University">
-        <img src="/images/osu_fulllogo.png" alt="Ohio State University logo" width="58" height="58" />
-    </a>
-    <p>
-    &copy; 2010, The Ohio State University 
-    </p>
-    <p>
-    Administration and Planning | 101 Bricker Hall | 190 North Oval Mall | Columbus, Ohio 43210 | Ph: (614) 292-3080 | Fax: (614) 292-3036
-    </p>
-    <p>
-    This page is maintained by: <a href="http://bfapit.osu.edu" target="_blank">BFAP IT</a>.
-    </p>
-    <p>
-    If you have trouble accessing this page and need to request an alternate format, contact <a href="mailto:ap-officevpap@osu.edu">ap-officevpap@osu.edu</a>.
-    </p> 
+	<p><a href="http://osu.edu"><img src="/images/osu-web-footer.png" alt="The Ohio State University"></a></p>
+	<p>© 2014 The Ohio State University – Office of Administration and Planning<br>
+	101 Bricker Hall, 190 North Oval Mall,Columbus, Ohio 43210 | Ph: (614) 292-3080 | Fax: (614) 292-3036<br />
+	If you have trouble accessing this page and need to request an alternate format, contact <a href="mailto:ap-officevpap@osu.edu">ap-officevpap@osu.edu</a>.
+	</p>
     <p>
         <a href="http://get.adobe.com/reader/" target="_blank">Download Adobe Reader</a>&nbsp;&nbsp;&nbsp;
         <a href="http://ada.osu.edu/access-concerns-form/"
         title="Give Access Feedback and Report Concerns" target="_blank">
         Access Feedback and Concerns</a>
     </p>  
+
     <script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -373,6 +322,7 @@
 	  })();
 
 	</script>
+
 </div>
 <!-- End footer -->
 	    <br class="clearall" />
